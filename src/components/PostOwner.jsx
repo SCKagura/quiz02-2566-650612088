@@ -13,6 +13,7 @@ export const PostOwner = ({}) => {
           Boonyawut Buthboon 650612088
         </span>
       </div>
+
       <span className="text-white">
         Quiz ง่ายจังเลยครับ ขอยาก ๆ กว่านี้ได้ไหม #261207
       </span>
