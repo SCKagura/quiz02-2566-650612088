@@ -23,7 +23,6 @@ export const PostOwner = ({}) => {
         <span style={{ color: "#B0B3B8" }}>100 คน</span>
       </div>
       <hr className="m-0 border" />
-      <Reply></Reply>
     </div>
   );
 };
