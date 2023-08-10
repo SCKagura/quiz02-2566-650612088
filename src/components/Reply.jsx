@@ -12,9 +12,9 @@ export const Reply = ({ userImagePath, username, replyText, likeNum }) => {
         className="rounded rounded-3 p-2"
         style={{ backgroundColor: "#3A3B3C" }}
       >
-        <span className="fw-semibold" style={{ color: "#E4E6EB" }}>
+        <div className="fw-semibold" style={{ color: "#E4E6EB" }}>
           {username}
-        </span>
+        </div>
         <br />
         <span style={{ color: "#E4E6EB" }}>{replyText}</span>
         <div className="d-flex align-items-center gap-1">

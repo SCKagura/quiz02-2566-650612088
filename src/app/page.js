@@ -31,7 +31,6 @@ export default function HomePage() {
       <div className="d-flex gap-2 my-2 ps-5">
         <Reply></Reply>
       </div>
-      {/* map-loop render Comment component here */}
     </div>
   );
 }
