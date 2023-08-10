@@ -5,10 +5,5 @@ export const Comment = ({
   likeNum,
   replies,
 }) => {
-  return (
-    <div>
-      your code here...
-      {/* map-loop render Reply component here */}
-    </div>
-  );
+  return <div>{/* map-loop render Reply component here */}</div>;
 };
