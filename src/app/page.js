@@ -2,7 +2,7 @@
 
 import { PostOwner } from "@/components/PostOwner";
 import { Comment } from "@/components/Comment";
-
+import { Reply } from "@/components/Reply";
 export default function HomePage() {
   return (
     <div
@@ -28,10 +28,9 @@ export default function HomePage() {
       </div>
 
       {/* Reply Example */}
-      <Reply
-        userImagePath="/profileImages/puppy.jpg"
-        username="หมาน้อย"
-      ></Reply>
+      <div className="d-flex gap-2 my-2 ps-5">
+        <Reply></Reply>
+      </div>
       {/* map-loop render Comment component here */}
     </div>
   );
